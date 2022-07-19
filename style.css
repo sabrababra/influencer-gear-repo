@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding:0 50px
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-bar a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+   
+}
+.site-title h1{
+    font-size: 24px;
+}
+.section{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+
+}
+.conteiner p{
+    width: 50%;
+}
+.top-img {
+    width: 440px;
+    border: 5px solid rgba(200, 180, 180, 0.33);
+    margin-top: 30px;
+    border-radius: 227px;
+} 
+
+.logo-conteiner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 170px;
+    padding: 10px;
+    transform: translateX(200px);
+    background-color: rgb(235, 230, 230);
+    margin-bottom: 110px;
+    
+}
+.popular-title{
+    margin-left: 600px;
+    font-size: 28px;
+    font-weight: 600px;
+}
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    transform: translateX(200px);
+    margin-top: 30px;
+
+}
+.popular{
+    width: 329px;
+    height: 476px;
+    background-color: rgba(200, 180, 180, 0.33);
+}
+.main-div h1{
+    margin-bottom: 30px;
+}
+.fa-star.filled,.fa-star-half-stroke{
+    color: #FFC014;
+    font-size: 12px;
+   
+}
+span{
+    font-size: 14px;
+    color: #5E6366;
+    margin-right: 5px;
+}
+.star{
+    padding: 0 15px;
+}
+.img{
+    width: 300px;
+    height: 256px;
+    padding:  15px;
+    
+}
+.info h1{
+    font-size: 28px;
+    padding: 0 15px;
+    margin-top: -7px;
+}
+.info .icon{
+    font-size: 24px;
+    font-weight: 400;
+    padding:0  15px;
+    margin-top: -30px;
+}
+.info .text{
+    font-size: 14px;
+    color: #787885;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.section-two{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+.bottom-img img{
+    width: 404px;
+    height: 270px;
+    margin-left: 100px;
+}
+.conteiner-two {
+    margin-left: 430px;
+     width: 50%;
+}
+.conteiner-two h1{
+    font-size: 38px;
+}
+.conteiner-two p{
+    font-size: 16px;
+    color: #6C6C6C;
+
+}
